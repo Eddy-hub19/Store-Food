@@ -8,6 +8,9 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/* HEADER */
+
 .warning {
     display: flex;
     justify-content: center;
@@ -51,7 +54,7 @@ ul li {
 }
 
 .list li:before {
-    content: url(/img/check-mark.svg);
+    content: url(/Food-Store/img/check-mark.svg);
     padding: 2px 7px;
     background: #ff8126;
     border-radius: 50%;
@@ -81,7 +84,7 @@ ul li {
     display: inline-block;
     width: 10px;
     height: 7px;
-    background-image: url(/img/arrow-down.svg);
+    background-image: url(/Food-Store/img/arrow-down.svg);
 }
 
 .top_menu {
@@ -93,21 +96,21 @@ ul li {
     width: 24px;
     height: 24px;
     background-repeat: no-repeat;
-    background-image: url(/img/search.svg);
+    background-image: url(/Food-Store/img/search.svg);
 }
 
 .menu2 {
     width: 24px;
     height: 30px;
     background-repeat: no-repeat;
-    background-image: url(/img/profile.svg);
+    background-image: url(/Food-Store/img/profile.svg);
 }
 
 .menu3 {
     width: 30px;
     height: 30px;
     background-repeat: no-repeat;
-    background-image: url(/img/cart.svg);
+    background-image: url(/Food-Store/img/cart.svg);
     position: relative;
 }
 
@@ -139,6 +142,12 @@ ul li {
     color: #ffffff;
     padding: 0 2px;
 }
+
+
+/* HEADER */
+
+
+/* MAIN */
 
 .banner {
     box-shadow: -5px 4px 11px -3px #000000;
@@ -374,7 +383,7 @@ ul li {
     align-self: center;
     width: 100%;
     height: 395px;
-    background-image: url(/img/Bg-Our-Partner.png);
+    background-image: url(/Food-Store/img/Bg-Our-Partner.png);
     align-content: center;
     flex-wrap: wrap;
     flex-direction: column;
@@ -473,7 +482,7 @@ ul li {
 .section_right {
     display: flex;
     background-repeat: no-repeat;
-    background-image: url(/img/section-left.png);
+    background-image: url(/Food-Store/img/section-left.png);
     width: 1720px;
     height: 432px;
 }
@@ -540,7 +549,7 @@ ul li {
     height: 260px;
     display: flex;
     flex-direction: column;
-    background-image: url(/img/Bg-Tell-Friend.png);
+    background-image: url(/Food-Store/img/Bg-Tell-Friend.png);
 }
 
 .comunication h4 {
@@ -567,6 +576,9 @@ ul li {
 .com_item a {
     margin-left: 30px;
 }
+
+
+/* MAIN */
 
 footer {
     display: flex;
@@ -598,3 +610,6 @@ footer {
     line-height: 22px;
     color: #3d3d3d;
 }
+
+
+/* FOOTER */
