@@ -18,8 +18,8 @@ addButton.addEventListener("click", function() {
     };
 
     createNewTodo.submit(function(event) {
-        event.preventDefault()
-    })
+        event.preventDefault();
+    });
 
     let inputs = document.querySelectorAll("input[type=text]");
 
