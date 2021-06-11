@@ -3,16 +3,9 @@ $("document").ready(function() {
     let $taskInput = $("#taskInput");
     let $notification = $("#notification");
 
-    // localStorage.setItem('todo', JSON.stringify($todoList));
-
     // LOCAL STORAGE
+    $("#tasksList").html(localStorage.getItem("listItems"));
 
-    // localStorage.clear();
-
-    // let $todoForm = $("#todo-form");
-
-
-    // let $todoList = [];
 
     const displayNotification = function() {
         if (!$tasksList.children().length) {
@@ -32,26 +25,30 @@ $("document").ready(function() {
             $taskInput.val() +
             "<button class='delete'> &#10007</button>  </li>"
         );
+        localStorage.setItem("listItems", $("#tasksList").html());
         displayNotification();
 
         $taskInput.val("");
-
-        $(".delete").on("click", function() {
-            let $parent = $(this).parent();
-            const btnDelete = function() {
-                $parent.remove();
-            };
-            btnDelete();
-        });
-
-        $(".add").on("click", function() {
-            let $parent = $(this).parent();
-            const btnCheck = function() {
-                $parent.toggleClass("done");
-            };
-            btnCheck();
-        });
     });
+
+    $(".add").on("click", function() {
+        let $parent = $(this).parent();
+        const btnCheck = function() {
+            $parent.toggleClass("done");
+        };
+        btnCheck();
+        localStorage.setItem("listItems", $("#tasksList").html());
+    });
+
+    $(".delete").on("click", function() {
+        let $parent = $(this).parent();
+        const btnDelete = function() {
+            $parent.remove();
+        };
+        btnDelete();
+        localStorage.setItem("listItems", $("#tasksList").html());
+    });
+
     $("#todo-form").submit(function(event) {
         event.preventDefault();
     });

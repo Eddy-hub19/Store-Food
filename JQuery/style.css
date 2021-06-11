@@ -39,6 +39,7 @@ header {
     border-radius: 20px;
     margin: 10px 80px;
     color: white;
+    text-align: center;
 }
 
 ul li {
@@ -102,5 +103,5 @@ li:hover {
 }
 
 .done .add {
-    background: rgb(228, 148, 21);
+    background: rgb(34 163 112);
 }
