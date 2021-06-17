@@ -1,13 +1,23 @@
-$(document).ready(function() {
-    $(".slider").slick({
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 2000,
-        accessibility: true,
-        mobileFirst: true,
-        infinite: true,
-    });
+$(document).ready(function () {
+  $(".slider").slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    accessibility: true,
+    mobileFirst: true,
+    infinite: true,
+  });
+});
+
+
+
+
+
+let $hamburger = $(".hamburger");
+
+$("#hamburger").on("click", function () {
+  $hamburger.toggleClass(".test");
 });
 
 // for carousel JS
@@ -34,8 +44,8 @@ $(document).ready(function() {
 //     sliderLine.style.left = -offset + "px";
 // });
 
-const test = document.querySelector(".warning");
+const warning = document.querySelector(".warning");
 
-document.querySelector(".close-btn").addEventListener("click", function() {
-    test.style.display = "none";
+document.querySelector(".close-btn").addEventListener("click", function () {
+  warning.style.display = "none";
 });
