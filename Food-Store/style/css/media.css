@@ -342,7 +342,6 @@
     }
     .sections {
         display: none;
-        /* flex-direction: column; */
     }
     .section_left h3 {
         font-size: 40px;
