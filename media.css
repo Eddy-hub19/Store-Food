@@ -321,9 +321,9 @@
 /*  TABLET  */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .hidden-item {
+  /* .hidden-item {
     display: none;
-  }
+  } */
 
   .header {
     font-size: 22px;
