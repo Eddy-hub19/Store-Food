@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $(".slider").slick({
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
@@ -11,14 +11,14 @@ $(document).ready(function () {
 });
 
 
+const hamburger = document.querySelector('.hamburger')
+const menu = document.querySelector('.menu')
 
 
+hamburger.addEventListener('click', function ()  {
+  menu.classList.toggle('show')
+})
 
-let $hamburger = $(".hamburger");
-
-$("#hamburger").on("click", function () {
-  $hamburger.toggleClass(".test");
-});
 
 // for carousel JS
 

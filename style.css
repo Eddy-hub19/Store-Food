@@ -670,7 +670,6 @@ footer {
 /*  BURGER  */
 
 .hamburger::after {
-  /* display: none; */
   margin-left: 10px;
   border: none;
 }
@@ -682,17 +681,20 @@ footer {
   border: none;
   background: none;
   cursor: pointer;
-  display: block;
+  display: none;
 }
 
 .hamburger span::after {
+  display: none;
   content: "\2261";
   font-size: 70px;
   width: 40px;
+  z-index: 2;
 }
 
 .hamburger span {
-  display: flex;
+  display: none;
+  /* display: flex; */
   flex-direction: column-reverse;
   align-items: center;
   align-self: center;
@@ -715,6 +717,7 @@ footer {
   justify-content: space-evenly;
   flex-direction: column;
 }
+
 
 .menuLink {
   font-family: "Courier New", Courier, monospace;
