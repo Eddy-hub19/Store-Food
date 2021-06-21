@@ -539,7 +539,7 @@
 
   #hamburger {
     display: block;
-    position: fixed;
+    position: absolute;
     left: 0px;
     top: 30px;
     border: none;
