@@ -3,14 +3,14 @@ const songsToAdd = [
     name: "Terrain",
     artist: "pg.lost",
     album: "Key",
-    url: "/Music.App/music/cali.mp3",
+    url: "/Music-App/music/cali.mp3",
     cover_art_url: "http://surl.li/xwou",
   },
   {
     name: "Vorel",
     artist: "Russian Circles",
     album: "Guidance",
-    url: "/Music.App/music/Dont-Cry.mp3",
+    url: "/Music-App/music/Dont-Cry.mp3",
     cover_art_url:
       "https://521dimensions.com/img/open-source/amplitudejs/album-art/guidance.jpg",
   },
@@ -18,7 +18,7 @@ const songsToAdd = [
     name: "Intro / Sweet Glory",
     artist: "Jimkata",
     album: "Die Digital",
-    url: "/Music.App/music/Our-Last-Night.mp3",
+    url: "/Music-App/music/Our-Last-Night.mp3",
     cover_art_url:
       "https://521dimensions.com/img/open-source/amplitudejs/album-art/die-digital.jpg",
   },
@@ -41,7 +41,7 @@ const songsToAdd = [
     name: "Be Somebody",
     artist: "Thousand Foot",
     album: "Krutch",
-    url: "Music.App/music/Be-Somebody.mp3",
+    url: "Music-App/music/Be-Somebody.mp3",
     cover_art_url: "http://surl.li/xwou",
   },
 ];
@@ -52,14 +52,14 @@ Amplitude.init({
       name: "Risin' High (feat Raashan Ahmad)",
       artist: "Ancient Astronauts",
       album: "We Are to Answer",
-      url: "/Music.App/music/Black Atlass - Lie To Me.mp3",
+      url: "/Music-App/music/Black Atlass - Lie To Me.mp3",
       cover_art_url: "http://surl.li/xwoc",
     },
     {
       name: "Miamor",
       artist: "Adventure",
       album: "Mi",
-      url: "/Music.App/music/Miamor - adventure .mp3",
+      url: "/Music-App/music/Miamor - adventure .mp3",
       cover_art_url: "http://surl.li/xwny",
     },
     {
